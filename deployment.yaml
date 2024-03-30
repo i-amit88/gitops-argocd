@@ -13,7 +13,7 @@ spec:
         app: register-app
     spec:
       containers:
-        - name: register-app
+        - name: register-app 
           image: amit2002/register-app-pipeline:1.0.0-11
           resources:
             limits:
